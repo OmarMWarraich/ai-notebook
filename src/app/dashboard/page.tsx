@@ -1,3 +1,4 @@
+import CreateNoteDialogue from '@/components/CreateNoteDialogue'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 import { UserButton } from '@clerk/nextjs'
@@ -44,7 +45,12 @@ const DashboardPage = (props: Props) => {
                         You have no notes yet.
                     </h2>
                 </div>
-                
+
+
+                {/* display all the notes */}
+                <div className="grid sm:grid-cols-3 md:grid-cols-5 grid-cols-1 gap-3">
+                    <CreateNoteDialogue />
+                </div>
             </div>
         </div>
     </>
