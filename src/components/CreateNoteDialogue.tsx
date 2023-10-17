@@ -43,8 +43,6 @@ const CreateNoteDialogue = (props: Props) => {
         })
     }
 
-
-
   return (
     <Dialog>
         <DialogTrigger>
