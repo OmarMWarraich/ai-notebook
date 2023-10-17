@@ -34,7 +34,7 @@
 
 # 📖 [ai-notebook] <a name="about-project"></a>
 
-ai-notebook is a web application that creates notes for users based on their input. The user can input one word for an object and the application will generate a short description of the object based on the input using the OpenAI API. The short description shall be fed to the Dalle's API to generate an image of the object and meanwhile the object's details shall be saved in the neon database using drizzle orm while the dalle's image be uploaded to firebase storage and the user shall be redirected to the note's page. On pressing 'shift + A', the application shall use vercel ai sdk to auto complete the details about the object. On the main dashboard the user shall be able to see all the notes created by him/her and on clicking on a note, the user shall be redirected to the note's page where he/she can see the image of the object and the details about the object. The user can also edit the details about the object. The user can also delete the note.   
+ai-notebook is a web application that creates notes for users based on their input. The user can input one word for an object and the application will generate a short description of the object based on the input using the OpenAI API. The short description shall be fed to the Dalle's API to generate an image of the object and meanwhile the object's details shall be saved in the neon database using drizzle orm while the dalle's image be uploaded to firebase storage and the user shall be redirected to the note's page. On pressing 'shift + A', the application shall use vercel ai sdk to auto complete the details about the object. On the main dashboard the user shall be able to see all the notes created by him/her and on clicking on a note, the user shall be redirected to the note's page where he/she can see the image of the object and the details about the object. The user can also edit the details about the object and can also delete the note. The application is deployed on vercel.   
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,6 +74,8 @@ ai-notebook is a web application that creates notes for users based on their inp
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+
+[Live](https://ai-notebook.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
