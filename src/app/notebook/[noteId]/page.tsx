@@ -1,14 +1,16 @@
+import React from 'react'
+import { auth } from '@clerk/nextjs'
+import { and, eq } from 'drizzle-orm'
+import { ArrowLeft } from 'lucide-react'
+import Link from 'next/link'
+import { redirect } from 'next/navigation'
+
 import TipTapEditor from '@/components/TipTapEditor'
 import { Button } from '@/components/ui/button'
 import { clerk } from '@/lib/clerk-server'
 import { db } from '@/lib/db'
 import { $notes } from '@/lib/db/schema'
-import { auth } from '@clerk/nextjs'
-import { and, eq } from 'drizzle-orm'
-import { ArrowLeft, Trash2 } from 'lucide-react'
-import Link from 'next/link'
-import { redirect } from 'next/navigation'
-import React from 'react'
+import DeleteButton from '@/components/DeleteButton'
 
 type Props = {
     params: {
@@ -57,7 +59,7 @@ const NoteBookPage = async ({
                 <span className="inline-block mx-1">/</span>
                 <span className="text-stone-500 font-semibold">{note.name}</span>
                 <div className="ml-auto">
-                    <Trash2 className="w-6 h-6 text-red-600"/>
+                    <DeleteButton noteId={note.id} />
                 </div>
             </div>
 
