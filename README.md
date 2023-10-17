@@ -1,27 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 
   <h3><b>README Template</b></h3>
@@ -62,8 +40,6 @@ ai-notebook is a web application that creates notes for users based on their inp
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -89,8 +65,6 @@ ai-notebook is a web application that creates notes for users based on their inp
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - Description Generation
 - Image Creation
 - Chat Completion
@@ -101,23 +75,17 @@ ai-notebook is a web application that creates notes for users based on their inp
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
-
 
 Example command:
 
@@ -129,7 +97,6 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
-
 
 Example commands:
 
@@ -143,7 +110,6 @@ Example commands:
 
 Install this project with:
 
-
 Example command:
 
 ```sh
@@ -156,7 +122,6 @@ Example command:
 
 To run the project, execute the following command:
 
-
 Example command:
 
 ```sh
@@ -168,7 +133,6 @@ Example command:
 
 To run tests, run the following command:
 
-
 Example command:
 
 ```sh
@@ -177,8 +141,6 @@ Example command:
 -
 
 ### Deployment
-
-You can deploy this project using:
 
 <!--
 Example:
@@ -206,8 +168,6 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **[new_feature_1]**
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
@@ -228,9 +188,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please give it a star on github.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,8 +205,6 @@ I would like to thank FreeCodeCamp for the inspiration for this project.
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Question_1]**
 
