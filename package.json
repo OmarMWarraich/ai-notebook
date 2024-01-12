@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@clerk/backend": "^0.31.0",
-    "@clerk/nextjs": "^4.25.4",
+    "@clerk/nextjs": "^4.29.3",
     "@neondatabase/serverless": "^0.6.0",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-separator": "^1.0.3",
